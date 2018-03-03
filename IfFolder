@@ -1,0 +1,9 @@
+#!/bin/bash
+
+if [ -d ~/testfolder ]
+then
+	echo "Folder exist on this pc"
+else
+	echo "Folder NOT found"
+
+fi 

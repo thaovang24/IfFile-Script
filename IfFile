@@ -1,0 +1,9 @@
+#!/bin/bash
+
+if [ -f ~testfile ]
+then
+	echo "File located on pc"
+else
+	echo "File NOT on pc"
+
+fi
